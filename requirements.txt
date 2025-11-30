@@ -4,3 +4,6 @@ sentence-transformers
 torch
 numpy
 scikit-learn
+selenium
+spacy
+supabase
