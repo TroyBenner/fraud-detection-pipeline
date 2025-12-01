@@ -57,14 +57,13 @@ streamlit run app.py
 # 🖼️ Visual Overview
 
 
-## 📸 Screenshots (Placeholders)
+## 📸 Screenshots
 
 | Feature            | Screenshot              |
 | ------------------ | ----------------------- |
-| Home Search        | <img width="1409" height="892" alt="Screenshot 2025-12-01 at 1 00 00 PM" src="https://github.com/user-attachments/assets/9d7da323-665a-4e9e-a176-af64fed29bc5" />
-    |
-| Simple Explanation | ![](images/explain.png) |
-| Comparison Mode    | ![](images/compare.png) |
+| Home Search        | <img width="1409" height="892" alt="Screenshot 2025-12-01 at 1 00 00 PM" src="https://github.com/user-attachments/assets/9d7da323-665a-4e9e-a176-af64fed29bc5" />|
+| Simple Searching | <img width="1141" height="841" alt="Screenshot 2025-12-01 at 1 01 54 PM" src="https://github.com/user-attachments/assets/45847715-e9f6-469f-a38e-34dcbc8531bd" />|
+
 
 ---
 
@@ -163,6 +162,7 @@ Full article bodies are **not** scraped or reproduced.
 * NumPy (vector search)
 * BeautifulSoup (scraping)
 * Python 3.10+
+
 
 
 
