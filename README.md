@@ -125,9 +125,7 @@ Tagging is based on keyword clustering + semantic similarity.
 
 You can compare:
 
-* Your question
-  **against**
-* Any FINRA article
+* Your question **against** any FINRA article
 
 The system embeds both and explains whether they are similar fraud patterns.
 
@@ -161,6 +159,7 @@ Full article bodies are **not** scraped or reproduced.
 * NumPy (vector search)
 * BeautifulSoup (scraping)
 * Python 3.10+
+
 
 
 
