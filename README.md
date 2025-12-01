@@ -2,6 +2,16 @@
 
 The **FINRA Fraud Intelligence Engine** is a sleek, modern Streamlit web app that uses BERT-based semantic search and transformer-generated explanations to help users explore investment fraud insights. It loads FINRA article summaries, finds the most relevant match for any question, explains articles in simple terms, and even allows comparison between articles.
 
+## Source: 
+FINRA — https://www.finra.org
+
+## Author:
+
+- Clara Belluci
+- Troy Benner
+- Hoang Bui
+- Tori-Ana McNeil
+
 ---
 
 ## 🌟 Features
@@ -123,17 +133,6 @@ The system embeds both and explains whether they are similar fraud patterns.
 
 ---
 
-# 🔎 Example Queries
-
-Try these in the app:
-
-* **“How do elder fraud scams work?”**
-* **“What are signs of crypto investment fraud?”**
-* **“Compare AI trading scams with pump-and-dump schemes.”**
-* **“What should older investors watch out for in phone scams?”**
-
----
-
 # 📈 Findings & Why This Project Is Useful
 
 | Benefit                   | Description                                         |
@@ -162,6 +161,7 @@ Full article bodies are **not** scraped or reproduced.
 * NumPy (vector search)
 * BeautifulSoup (scraping)
 * Python 3.10+
+
 
 
 
