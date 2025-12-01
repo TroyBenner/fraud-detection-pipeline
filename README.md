@@ -34,8 +34,17 @@ pip install -r requirements.txt
 
 ### **2. Environment Setup**
 
-Copy the example environment file:
+Follow these steps to configure your environment:
 
+1. Create a `.streamlit` folder in your project root.
+2. Inside it, create a `secrets.toml` file.
+3. Add your Supabase credentials:
+
+```toml
+# .streamlit/secrets.toml
+SUPABASE_KEY = "your-supabase-key"
+SUPABASE_URL = "your-supabase-url"
+```
 
 ### **3. ⚙️ Running the application
 
@@ -52,7 +61,8 @@ streamlit run app.py
 
 | Feature            | Screenshot              |
 | ------------------ | ----------------------- |
-| Home Search        | ![](images/home.png)    |
+| Home Search        | <img width="1409" height="892" alt="Screenshot 2025-12-01 at 1 00 00 PM" src="https://github.com/user-attachments/assets/9d7da323-665a-4e9e-a176-af64fed29bc5" />
+    |
 | Simple Explanation | ![](images/explain.png) |
 | Comparison Mode    | ![](images/compare.png) |
 
@@ -61,7 +71,7 @@ streamlit run app.py
 
 # 📚 Data Source
 
-All FINRA summaries come from the ** [FINRA]('https://www.finra.org/)** pages.
+All FINRA summaries come from the **[FINRA](https://www.finra.org/)** pages.
 Data was collected using **web scraping (BeautifulSoup)**.
 
 Each article entry looks like:
@@ -82,7 +92,7 @@ Each article entry looks like:
 FLAN-T5 rewrites FINRA summaries in simple language:
 
 * Converts financial jargon → plain English
-* Focuses on “what happened” and “how to protect yourself”
+* Focuses on “what happened” and “how to protect yourself.”
 * Makes alerts easier for general readers
 
 ---
@@ -140,7 +150,7 @@ Try these in the app:
 # 📄 License / Usage Notes
 
 FINRA content is public.
-Only **summaries + URLs** are stored.
+Only **summaries and URLs** are stored.
 Full article bodies are **not** scraped or reproduced.
 
 ---
@@ -153,6 +163,7 @@ Full article bodies are **not** scraped or reproduced.
 * NumPy (vector search)
 * BeautifulSoup (scraping)
 * Python 3.10+
+
 
 
 
