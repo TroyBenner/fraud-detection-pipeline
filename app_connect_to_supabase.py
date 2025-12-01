@@ -19,8 +19,8 @@ st.set_page_config(
     layout="wide"
 )
 # Supabase config
-url = os.getenv("SUPABASE_URL")
-key = os.getenv("SUPABASE_KEY")
+url = st.secrets["SUPABASE_URL"]
+key = st.secrets["SUPABASE_KEY"]
 SUPABASE_BUCKET = "DTSC_project"
 SUPABASE_CSV_PATH = "csv/articles-fraud.csv"   
 
