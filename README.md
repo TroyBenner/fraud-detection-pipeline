@@ -42,7 +42,7 @@ Copy the example environment file:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 ---
 
 # 🖼️ Visual Overview
@@ -61,7 +61,7 @@ streamlit run app.py
 
 # 📚 Data Source
 
-All FINRA summaries come from the **official FINRA Investor Alerts** pages.
+All FINRA summaries come from the ** [FINRA]('https://www.finra.org/)** pages.
 Data was collected using **web scraping (BeautifulSoup)**.
 
 Each article entry looks like:
@@ -153,5 +153,6 @@ Full article bodies are **not** scraped or reproduced.
 * NumPy (vector search)
 * BeautifulSoup (scraping)
 * Python 3.10+
+
 
 
