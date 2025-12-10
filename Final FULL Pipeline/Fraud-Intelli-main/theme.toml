@@ -1,0 +1,7 @@
+[theme]
+base="light"
+primaryColor="#0A84FF"         # Apple-style blue highlight
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F5F5F7"
+textColor="#1B1B1D"
+font="sans serif"

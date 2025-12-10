@@ -1,0 +1,14 @@
+streamlit
+pandas
+sentence-transformers
+torch
+numpy
+scikit-learn
+selenium
+spacy
+supabase==2.4.6
+python-dotenv
+altair
+matplotlib
+seaborn
+pyvis
